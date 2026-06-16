@@ -1,0 +1,43 @@
+body { font-family: sans-serif;
+     background: #07cbf2; 
+     padding: 20px; }
+
+.container { max-width: 800px; 
+             margin: auto; 
+             background: rgb(4, 223, 247); 
+             padding: 20px; 
+             border-radius: 8px; }
+
+form { display: flex; 
+       gap: 10px; 
+       margin-bottom: 20px; 
+       align-items: center; 
+       flex-wrap: wrap;}
+
+form input[type="text"], 
+form input[type="number"] {
+      padding: 8px; flex: 1; } 
+
+table { width: 100%; 
+        border-collapse: collapse; 
+        margin-top: 10px; }
+
+th, td { border: 1px solid #251f1f; 
+         padding: 10px; 
+         text-align: left; }
+
+th { background-color: #007bff; 
+     color: white; } 
+
+button { padding: 6px 12px; 
+         cursor: pointer; 
+         border: none; 
+         border-radius: 4px; }
+
+#submitBtn { background: #28a745; 
+             color: white; }       
+
+.edit-btn { background: #ffc107; 
+            margin-right: 5px; }
+.delete-btn { background: #dc3545; 
+              color: white; }
